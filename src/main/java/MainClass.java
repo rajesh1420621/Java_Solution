@@ -25,13 +25,13 @@ public class MainClass {
 //        System.out.println(prefix);
 
 //        5) Sort map by values
-//        SortMapValues sortMapValues = new SortMapValues();
-//        Map<Integer, String> map = new HashMap<>();
-//        map.put(23, "Supriya");
-//        map.put(45, "Alexa");
-//        map.put(25, "Sheree");
-//        map.put(34, "Google");
-//        sortMapValues.sortByValue(map);
+        SortMapValues sortMapValues = new SortMapValues();
+        Map<Integer, String> map = new HashMap<>();
+        map.put(23, "Supriya");
+        map.put(45, "Alexa");
+        map.put(25, "Sheree");
+        map.put(34, "Google");
+        sortMapValues.sortByValue(map);
 
 // Given an array of integer numbers and an integer target, return indices of the two numbers such that they add up to the target.
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -51,7 +51,7 @@ public class MainClass {
 //        System.out.println("Is valid? " + validBrackets.isValid("[{()}"));
 
 //        Can you write a name that turns input into a numero name?
-        NumeroName numeroName = new NumeroName();
-        System.out.println(numeroName.convertName("Kubernetes"));
+//        NumeroName numeroName = new NumeroName();
+//        System.out.println(numeroName.convertName("Kubernetes"));
     }
 }
